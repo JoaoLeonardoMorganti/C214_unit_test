@@ -20,10 +20,11 @@ class ViewController: UIViewController {
     }
     
     private func setupGif() {
-        let url = URL(string: self.GIF_URL)
-        let loader = UIActivityIndicatorView(style: .large)
-        self.gifImageView.layer.cornerRadius = 20
-        self.gifImageView.setGifFromURL(url!, customLoader: loader)
+        if let url = URL(string: self.GIF_URL) {
+            let loader = UIActivityIndicatorView(style: .large)
+            self.gifImageView.layer.cornerRadius = 20
+            self.gifImageView.setGifFromURL(url, customLoader: loader)
+        }
     }
     
 }
