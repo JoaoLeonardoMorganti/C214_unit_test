@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		74FEF49CAC16566C25653138 /* Pods_UnitTestProject_UnitTestProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE397B67D5C35BD5F3D50624 /* Pods_UnitTestProject_UnitTestProjectUITests.framework */; };
 		9FF221F2B9462BC5409A5A40 /* Pods_UnitTestProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4C3F39A814FC5D1C41850B /* Pods_UnitTestProjectTests.framework */; };
+		B578BF9726430CA1008684C3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B578BF9626430CA1008684C3 /* Car.swift */; };
 		B5C75B5C2641C35600EB7ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75B5B2641C35600EB7ED0 /* AppDelegate.swift */; };
 		B5C75B5E2641C35600EB7ED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75B5D2641C35600EB7ED0 /* SceneDelegate.swift */; };
 		B5C75B602641C35600EB7ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75B5F2641C35600EB7ED0 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		78DFE85EE77293F1721BFEF6 /* Pods-UnitTestProject-UnitTestProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestProject-UnitTestProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestProject-UnitTestProjectUITests/Pods-UnitTestProject-UnitTestProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		823ECCB7E98C72E9182FAA04 /* Pods-UnitTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestProject.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestProject/Pods-UnitTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		AB4C3F39A814FC5D1C41850B /* Pods_UnitTestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B578BF9626430CA1008684C3 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		B5C75B582641C35600EB7ED0 /* UnitTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C75B5B2641C35600EB7ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C75B5D2641C35600EB7ED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				BE3B7724572C551AA371355D /* Pods-UnitTestProjectTests.debug.xcconfig */,
 				4708C53BD69E247066EBF976 /* Pods-UnitTestProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,9 +144,10 @@
 				B5C75B5B2641C35600EB7ED0 /* AppDelegate.swift */,
 				B5C75B5D2641C35600EB7ED0 /* SceneDelegate.swift */,
 				B5C75B5F2641C35600EB7ED0 /* ViewController.swift */,
+				B578BF9626430CA1008684C3 /* Car.swift */,
+				B5C75B662641C35800EB7ED0 /* LaunchScreen.storyboard */,
 				B5C75B612641C35600EB7ED0 /* Main.storyboard */,
 				B5C75B642641C35800EB7ED0 /* Assets.xcassets */,
-				B5C75B662641C35800EB7ED0 /* LaunchScreen.storyboard */,
 				B5C75B692641C35800EB7ED0 /* Info.plist */,
 			);
 			path = UnitTestProject;
@@ -409,6 +411,7 @@
 			files = (
 				B5C75B602641C35600EB7ED0 /* ViewController.swift in Sources */,
 				B5C75B5C2641C35600EB7ED0 /* AppDelegate.swift in Sources */,
+				B578BF9726430CA1008684C3 /* Car.swift in Sources */,
 				B5C75B5E2641C35600EB7ED0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
